@@ -26,7 +26,8 @@ pip install scrapy_proxies
 pip install scrapy-splash
 ```
 
-4.  此專案將會使用到splash service，在此例是用windows作為部屬環境所以請先安裝docker，https://docs.docker.com/docker-for-windows/，安裝完後再用docker抓下splash的映像檔
+4.  此專案將會使用到splash service，在此例是用windows作為部屬環境所以請先安裝docker，https://docs.docker.com/docker-for-windows/
+，安裝完後再用docker抓下splash的映像檔
 
 ```
 sudo docker pull scrapinghub/splash
