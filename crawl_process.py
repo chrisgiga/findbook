@@ -112,15 +112,15 @@ if __name__ == '__main__':
        for proxy in proxie:  
              f.write(proxy+'\n')     
     
-#    setting = get_project_settings()
-#    process = CrawlerProcess(setting)
-#    try: 
-#        process.crawl('cn_book_spider')
-#        process.crawl('cn_book_img_spider')
-#        process.crawl('en_book_spider')
-#        process.crawl('en_book_img_spider')
-#        process.crawl('jp_book_spider')
-#        process.crawl('jp_book_img_spider')
-#        process.start()
-#    except:
-#        print ('fail to start process')  
+    setting = get_project_settings()
+    process = CrawlerProcess(setting)
+    try: 
+        process.crawl('cn_book_spider')
+        process.crawl('cn_book_img_spider')
+        process.crawl('en_book_spider')
+        process.crawl('en_book_img_spider')
+        process.crawl('jp_book_spider')
+        process.crawl('jp_book_img_spider')
+        process.start()
+    except:
+        print ('fail to start process')  
