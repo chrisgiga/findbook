@@ -2,7 +2,7 @@
 """
 Created on Thu Feb  1 15:54:10 2018
 
-@author: taaze
+@author: chris
 """
 import scrapy 
 import re

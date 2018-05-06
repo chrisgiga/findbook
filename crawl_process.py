@@ -2,7 +2,7 @@
 """
 Created on Thu Nov 16 09:26:41 2017
 
-@author: taaze
+@author: chris
 """
 
 
@@ -61,9 +61,7 @@ class Proxies(object):
             page += 1  
             
     def verify_proxies(self):  
-        # 没验证的代理  
         old_queue = Queue()  
-        # 验证后的代理  
         new_queue = Queue()  
         print ('verify proxy........')  
         works = []  
